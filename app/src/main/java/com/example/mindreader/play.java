@@ -11,9 +11,9 @@ import android.widget.ImageView;
 import java.util.Random;
 
 public class play extends AppCompatActivity {
-    Button returne ,tap ;
-    ImageView img ;
-    static int x ;
+    private Button returne ,tap ;
+    private ImageView img ;
+    public static int x ;
 
 
     @Override
@@ -24,9 +24,9 @@ public class play extends AppCompatActivity {
         tap= findViewById(R.id.result);
         img=findViewById(R.id.img);
         Random rand = new Random(); //instance of random class
-         int upperbound = 7;
-        //generate random values from 0-24
-        x = rand.nextInt(upperbound);
+
+        //generate random values from 0-6
+        x = rand.nextInt(7);
         switch (x){
             case 0 :
                 img.setImageResource(R.drawable.img1);

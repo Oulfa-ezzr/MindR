@@ -17,5 +17,5 @@
         android:background="@drawable/next"
         android:fontFamily="@font/cardo"
 
-        android:text="next" />
+         />
 </RelativeLayout>

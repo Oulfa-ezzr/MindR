@@ -9,11 +9,15 @@
 
      <Button
          android:id="@+id/play"
-         android:layout_width="200dp"
+         android:layout_width="160dp"
          android:layout_height="80dp"
          android:layout_marginLeft="105dp"
          android:layout_marginTop="570dp"
          android:fontFamily="@font/cardo"
+         android:textColor="#03142C"
+         android:layout_centerHorizontal="true"
+         android:textSize="37dp"
+         android:background="@drawable/shape"
          android:text="Play" />
 
 

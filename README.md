@@ -1,2 +1,1 @@
-# PlantD
-# PlantD
+# Mind reader
